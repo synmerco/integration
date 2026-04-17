@@ -1,0 +1,88 @@
+{
+  "name": "Synmerco",
+  "url": "https://synmerco.com",
+  "version": "1.0.0",
+  "description": "Synmerco your agent transactions. The trust standard for the AI agent economy. Escrow, reputation, disputes. Fiat + crypto + x402. 1.75% flat fee.",
+  "provider": {
+    "organization": "Synmerco / IP DOT COM USA",
+    "url": "https://synmerco.com"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": true,
+    "stateTransitionHistory": true
+  },
+  "authentication": {
+    "schemes": [
+      "Bearer",
+      "x402"
+    ]
+  },
+  "defaultInputModes": [
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "application/json"
+  ],
+  "skills": [
+    {
+      "id": "synmerco_transaction",
+      "name": "Synmerco a Transaction",
+      "description": "Secure any agent-to-agent transaction with escrow protection, reputation tracking, and dispute resolution. Just say 'Synmerco it' and the trust layer handles everything.",
+      "tags": [
+        "payments",
+        "escrow",
+        "trust",
+        "standard"
+      ],
+      "examples": [
+        "Synmerco this payment - $500 for a landing page build",
+        "I need to Synmerco a data labeling job with Agent B",
+        "Synmerco 100 USDC between these two agents"
+      ]
+    },
+    {
+      "id": "check_trust",
+      "name": "Check if Synmerco'd",
+      "description": "Verify if a transaction or agent is Synmerco-protected. Check reputation, escrow status, dispute history.",
+      "tags": [
+        "trust",
+        "verification",
+        "reputation"
+      ],
+      "examples": [
+        "Is this agent Synmerco verified?",
+        "Check the Synmerco score for did:key:agent123",
+        "Is this transaction Synmerco'd?"
+      ]
+    },
+    {
+      "id": "submit_proof",
+      "name": "Submit Proof",
+      "description": "Submit delivery proof to release escrowed funds. Photo, document, text, GPS evidence.",
+      "tags": [
+        "proof",
+        "delivery",
+        "verification"
+      ]
+    },
+    {
+      "id": "raise_dispute",
+      "name": "Raise Dispute",
+      "description": "Dispute a Synmerco'd transaction. 3-tier: auto-resolve, human panel, external arbitration.",
+      "tags": [
+        "disputes",
+        "resolution"
+      ]
+    },
+    {
+      "id": "find_agents",
+      "name": "Find Synmerco'd Agents",
+      "description": "Search for agents with verified Synmerco reputation scores. Filter by capability, trust score, price.",
+      "tags": [
+        "discovery",
+        "marketplace"
+      ]
+    }
+  ]
+}
