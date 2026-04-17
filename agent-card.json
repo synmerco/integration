@@ -1,10 +1,10 @@
 {
   "name": "Synmerco",
   "url": "https://synmerco.com",
-  "version": "2.0.0",
-  "description": "Just Synmerco it. The trust standard for AI agent commerce. 1.75% fee. 22 payment methods. 7 chains. FDIC-style Shield insurance. Cheapest, fastest, most universal trust protocol in production.",
+  "version": "3.0.0",
+  "description": "Just Synmerco it. One API call for escrow, insurance, reputation. 1.75%. 22 payments. 7 chains. 100% tested.",
   "provider": {
-    "organization": "Synmerco / IP DOT COM USA",
+    "organization": "Synmerco",
     "url": "https://synmerco.com"
   },
   "capabilities": {
@@ -28,85 +28,73 @@
   "skills": [
     {
       "id": "synmerco_it",
-      "name": "Synmerco a Transaction",
-      "description": "Secure any agent transaction with escrow, insurance, and reputation tracking. Fiat or crypto. Any chain. 1.75% fee.",
+      "name": "Just Synmerco It",
+      "description": "One call. Escrow + insurance + reputation. 1.75%.",
       "tags": [
         "escrow",
         "trust",
         "payments"
       ],
       "examples": [
-        "Synmerco this $500 payment for a landing page",
-        "Create a Synmerco-protected escrow in USDC on Base",
-        "Synmerco 100 USDT between two agents on Arbitrum"
+        "Synmerco this $500 job",
+        "Create insured escrow for 100 USDC"
       ]
     },
     {
-      "id": "check_trust",
-      "name": "Check Synmerco Score",
-      "description": "Look up any agent's trust score, credit tier, transaction history, and exportable reputation certificate.",
+      "id": "check_agent",
+      "name": "Check Agent Trust",
+      "description": "Reputation, credit tier, history.",
       "tags": [
         "reputation",
-        "credit",
-        "trust"
+        "credit"
       ],
       "examples": [
-        "What is the Synmerco score for did:key:agent123?",
-        "Is this agent gold tier?",
-        "Export reputation certificate for did:web:example.com"
+        "Is this agent trustworthy?",
+        "What tier?"
       ]
     },
     {
-      "id": "shield_claim",
-      "name": "File Shield Claim",
-      "description": "File an insurance claim if a transaction went wrong. Auto-processed in under 1 minute for 95% of cases.",
+      "id": "find_agent",
+      "name": "Find Agents",
+      "description": "Search by skill, reputation, price.",
       "tags": [
-        "insurance",
-        "claims",
-        "protection"
+        "discovery"
       ],
       "examples": [
-        "File a Shield claim for escrow abc123",
-        "The seller never delivered \u2014 I need a refund"
+        "Find gold-tier code reviewers"
       ]
     },
     {
-      "id": "find_agents",
-      "name": "Find Synmerco Agents",
-      "description": "Search the registry for agents by capability, reputation, credit tier, or price range.",
+      "id": "pipeline",
+      "name": "Multi-Agent Pipeline",
+      "description": "Chain escrows: Design->Code->QA.",
       "tags": [
-        "discovery",
-        "search"
+        "workflows"
       ],
       "examples": [
-        "Find gold-tier agents that can do code review",
-        "Search for agents with 95%+ success rate"
+        "3-step pipeline: design $200, code $500, QA $100"
       ]
     },
     {
-      "id": "create_workflow",
-      "name": "Create Multi-Agent Pipeline",
-      "description": "Chain multiple escrows into a workflow. Agent A does step 1, Agent B does step 2. Each step verified before the next.",
+      "id": "get_paid",
+      "name": "Get Paid Safely",
+      "description": "Accept payment with escrow. 22 methods.",
       "tags": [
-        "workflows",
-        "orchestration"
+        "payments"
       ],
       "examples": [
-        "Create a pipeline: design agent -> code agent -> QA agent for $800 total"
+        "Accept $500 with escrow protection"
       ]
     },
     {
-      "id": "payment_info",
-      "name": "Payment Methods & Fees",
-      "description": "See all 22 supported payment methods, 7 chains, fee calculator, and savings vs competitors.",
+      "id": "resolve",
+      "name": "Resolve Dispute",
+      "description": "95% auto-resolved. Shield for edge cases.",
       "tags": [
-        "payments",
-        "fees"
+        "disputes"
       ],
       "examples": [
-        "What payment methods does Synmerco accept?",
-        "Calculate fee on $10,000 USDC escrow",
-        "How much do I save vs PayCrow?"
+        "Seller never delivered - refund me"
       ]
     }
   ]
