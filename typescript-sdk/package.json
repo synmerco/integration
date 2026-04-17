@@ -1,0 +1,39 @@
+{
+  "name": "@synmerco/sdk",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest run",
+    "tsc": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4",
+    "typescript": "^5.6.0"
+  },
+  "description": "Just Synmerco it. TypeScript SDK for AI agent escrow, reputation, and dispute resolution.",
+  "license": "MIT",
+  "keywords": [
+    "synmerco",
+    "ai-agents",
+    "escrow",
+    "trust",
+    "reputation",
+    "payments",
+    "mcp",
+    "x402"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/synmerco/integration"
+  },
+  "homepage": "https://synmerco.com",
+  "author": "Synmerco <hello@synmerco.com>",
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
