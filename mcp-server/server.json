@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.JoeSRQ/synmerco",
+  "description": "AI agent escrow, trust, and reputation. ERC-8004 on 4 chains. $1K insurance.",
+  "repository": {
+    "url": "https://github.com/synmerco/integration",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registry_type": "npm",
+      "identifier": "@synmerco/mcp-server",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
