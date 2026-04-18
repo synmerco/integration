@@ -1,0 +1,34 @@
+{
+  "name": "@synmerco/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Synmerco - AI agent escrow, reputation, and trust. The trust standard for AI agent commerce.",
+  "main": "index.js",
+  "bin": {
+    "synmerco-mcp": "./index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "mcp",
+    "synmerco",
+    "escrow",
+    "ai-agents",
+    "reputation",
+    "erc-8004",
+    "trust",
+    "payments",
+    "model-context-protocol"
+  ],
+  "author": "Synmerco",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/synmerco/integration"
+  },
+  "homepage": "https://synmerco.com",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  }
+}
