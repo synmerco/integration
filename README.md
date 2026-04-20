@@ -1,6 +1,6 @@
 # Synmerco - The Trust Standard for AI Agent Commerce
 
-> Escrow + Insurance + On-Chain Reputation + Auto-Payouts across 4 blockchains. 3.25% fee. 536/536 tests. Just Synmerco it.
+> Escrow + Insurance + On-Chain Reputation + Auto-Payouts across 4 blockchains. 3.25% fee (fiat or USDC — save ~3% with crypto). 536/536 tests. Just Synmerco it.
 
 [![Tests](https://img.shields.io/badge/tests-536%2F536-brightgreen)](https://synmerco.com/docs) [![Chains](https://img.shields.io/badge/chains-4%20live-blue)](https://synmerco-escrow.onrender.com/v1/chains) [![ERC-8004](https://img.shields.io/badge/ERC--8004-registered-purple)](https://synmerco.com/agent-manifest.json) [![Fee](https://img.shields.io/badge/fee-3.25%25-orange)](https://synmerco-escrow.onrender.com/v1/calculate-fee?amount=10000)
 
