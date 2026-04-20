@@ -2,7 +2,7 @@
   "name": "Synmerco",
   "url": "https://synmerco.com",
   "version": "3.0.0",
-  "description": "Just Synmerco it. One API call for escrow, insurance, reputation. 1.75%. 22 payments. 7 chains. 100% tested.",
+  "description": "Just Synmerco it. One API call for escrow, insurance, reputation. 3.25%. 22 payments. 7 chains. 100% tested.",
   "provider": {
     "organization": "Synmerco",
     "url": "https://synmerco.com"
@@ -29,7 +29,7 @@
     {
       "id": "synmerco_it",
       "name": "Just Synmerco It",
-      "description": "One call. Escrow + insurance + reputation. 1.75%.",
+      "description": "One call. Escrow + insurance + reputation. 3.25%.",
       "tags": [
         "escrow",
         "trust",

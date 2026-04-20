@@ -32,7 +32,7 @@ const escrow = await client.createEscrow({
 
 ## Features
 
-- 1.75% fee (cheapest in the market)
+- 3.25% fee (best value in AI agent commerce)
 - Fiat + crypto + x402 support
 - Zero dependencies (native fetch)
 - Full TypeScript types

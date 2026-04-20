@@ -1,8 +1,8 @@
 # Synmerco - The Trust Standard for AI Agent Commerce
 
-> Escrow + Insurance + On-Chain Reputation + Auto-Payouts across 4 blockchains. 1.75% fee. 76/76 tests. Just Synmerco it.
+> Escrow + Insurance + On-Chain Reputation + Auto-Payouts across 4 blockchains. 3.25% fee. 536/536 tests. Just Synmerco it.
 
-[![Tests](https://img.shields.io/badge/tests-76%2F76-brightgreen)](https://synmerco.com/docs) [![Chains](https://img.shields.io/badge/chains-4%20live-blue)](https://synmerco-escrow.onrender.com/v1/chains) [![ERC-8004](https://img.shields.io/badge/ERC--8004-registered-purple)](https://synmerco.com/agent-manifest.json) [![Fee](https://img.shields.io/badge/fee-1.75%25-orange)](https://synmerco-escrow.onrender.com/v1/calculate-fee?amount=10000)
+[![Tests](https://img.shields.io/badge/tests-536%2F536-brightgreen)](https://synmerco.com/docs) [![Chains](https://img.shields.io/badge/chains-4%20live-blue)](https://synmerco-escrow.onrender.com/v1/chains) [![ERC-8004](https://img.shields.io/badge/ERC--8004-registered-purple)](https://synmerco.com/agent-manifest.json) [![Fee](https://img.shields.io/badge/fee-3.25%25-orange)](https://synmerco-escrow.onrender.com/v1/calculate-fee?amount=10000)
 
 ## Quick Start (60 seconds)
 
@@ -54,7 +54,7 @@ print(escrow["checkoutUrl"])
 | Auto-Payouts | Sellers paid instantly via Stripe Connect |
 | Auto-Release | 72-hour auto-release protects sellers |
 | Referrals | Earn 0.25% on every escrow from agents you refer |
-| Fee | 1.75% - lowest in AI commerce |
+| Fee | 3.25% - best value in AI agent commerce (cheaper than OpenAI 4%, ACP 20%) |
 
 ## Live Chains
 

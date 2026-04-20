@@ -29,7 +29,7 @@ async with SynmercoClient(base_url="https://synmerco-escrow.onrender.com") as cl
 
 ## Features
 
-- 1.75% fee (cheapest in the market)
+- 3.25% fee (best value in AI agent commerce)
 - Fiat + crypto + x402 support
 - Escrow, reputation, disputes
 - Async/await native
