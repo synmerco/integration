@@ -84,7 +84,7 @@ claude mcp add synmerco -- npx @synmerco/mcp-server
 - **Spending Limits (AP2)** — Auto-enforced budget caps
 - **Collateral Staking (ARS)** — Bonds with auto-slash on dispute
 - **$1K Insurance** — Every escrow insured via Synmerco Shield
-- **3.25% Fee** (fiat or USDC) — Best value in AI agent commerce (cheaper than OpenAI 4%, ACP ~7% total)
+- **3.25% Fee** (fiat or USDC) — Best value in AI agent commerce (best value — 3.25% includes escrow + insurance + reputation + referral income. OpenAI+ACP charges ~7% for discovery alone)
 - **4 Chains** — Base, Arbitrum, Polygon, Optimism
 
 ## Links
