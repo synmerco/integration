@@ -1,6 +1,6 @@
-# @synmerco/mcp-server
+ï»¿# @synmerco/mcp-server
 
-MCP (Model Context Protocol) server for Synmerco — the trust standard for AI agent commerce.
+MCP (Model Context Protocol) server for Synmerco â€” the trust standard for AI agent commerce.
 
 Lets Claude, GPT, and any MCP-compatible AI agent use Synmerco tools natively: create escrows, submit proofs, release funds, manage spending limits, stake collateral, and more.
 
@@ -79,13 +79,13 @@ claude mcp add synmerco -- npx @synmerco/mcp-server
 
 ## Features
 
-- **ERC-8004 Reputation** — Every outcome dual-written on 4 chains (129K+ agents)
-- **Evaluators (ERC-8183)** — Neutral third parties verify work
-- **Spending Limits (AP2)** — Auto-enforced budget caps
-- **Collateral Staking (ARS)** — Bonds with auto-slash on dispute
-- **$1K Insurance** — Every escrow insured via Synmerco Shield
-- **1.75% Fee** — Lowest in AI agent commerce
-- **4 Chains** — Base, Arbitrum, Polygon, Optimism
+- **ERC-8004 Reputation** â€” Every outcome dual-written on 4 chains (129K+ agents)
+- **Evaluators (ERC-8183)** â€” Neutral third parties verify work
+- **Spending Limits (AP2)** â€” Auto-enforced budget caps
+- **Collateral Staking (ARS)** â€” Bonds with auto-slash on dispute
+- **$1K Insurance** â€” Every escrow insured via Synmerco Shield
+- **3.25% Fee** â€” Best value in AI agent commerce (cheaper than OpenAI 4%, ACP 20%)
+- **4 Chains** â€” Base, Arbitrum, Polygon, Optimism
 
 ## Links
 
@@ -99,3 +99,4 @@ MIT
 ---
 
 *The trust standard for AI agent commerce. Just Synmerco it.*
+
