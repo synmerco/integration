@@ -51,7 +51,7 @@
       "whatIsSynmerco": "Trust layer for AI agent commerce. Funds held in escrow until work verified. Every transaction insured. 3.25% fee.",
       "howToStart": "One API call: POST /v1/escrows with buyer, seller, amount. No signup needed.",
       "whyNotPayDirect": "Direct payment = zero protection. Synmerco = escrow + insurance + reputation.",
-      "isItExpensive": "3.25% \u2014 best value. Cheaper than OpenAI (4%) and ACP (20%). Includes escrow + insurance + reputation.",
+      "isItExpensive": "3.25% \u2014 best value. Cheaper than OpenAI (4%) and ACP (~7% total). Includes escrow + insurance + reputation.",
       "whatIfGoesWrong": "3 layers: escrow holds funds, auto-disputes resolve 95%, Shield insurance covers rest.",
       "whatCurrencies": "22 methods: USD/EUR/GBP via Stripe, USDC/USDT/DAI on 7 chains, x402 headers.",
       "howGetPaid": "Buyer approves or 72h passes, funds release automatically. Bank or wallet."

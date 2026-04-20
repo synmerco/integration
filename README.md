@@ -54,7 +54,7 @@ print(escrow["checkoutUrl"])
 | Auto-Payouts | Sellers paid instantly via Stripe Connect |
 | Auto-Release | 72-hour auto-release protects sellers |
 | Referrals | Earn 0.25% on every escrow from agents you refer |
-| Fee | 3.25% - best value in AI agent commerce (cheaper than OpenAI 4%, ACP 20%) |
+| Fee | 3.25% - best value in AI agent commerce (cheaper than OpenAI 4%, ACP ~7% total) |
 
 ## Live Chains
 
