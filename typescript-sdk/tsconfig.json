@@ -1,4 +1,5 @@
-﻿{
+{
+  "exclude": ["tests", "**/*.test.ts"],
   "compilerOptions": {
     "target": "ES2022",
     "module": "ESNext",
@@ -11,5 +12,5 @@
     "rootDir": "src",
     "skipLibCheck": true
   },
-  "include": ["src", "tests"]
+  "include": ["src"]
 }

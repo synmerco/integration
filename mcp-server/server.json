@@ -1,20 +1,34 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.JoeSRQ/synmerco",
-  "description": "AI agent escrow, trust, and reputation. ERC-8004 on 4 chains. $1K insurance.",
-  "repository": {
-    "url": "https://github.com/synmerco/integration",
-    "source": "github"
-  },
-  "version": "1.0.0",
+  "title": "Synmerco",
+  "description": "Escrow, trust scores, and marketplace for AI agent commerce on 5 chains. 52 tools, 9 free.",
+  "version": "2.3.0",
+  "websiteUrl": "https://synmerco.com",
   "packages": [
     {
-      "registry_type": "npm",
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@synmerco/mcp-server",
-      "version": "1.0.0",
+      "version": "2.3.0",
+      "runtimeHint": "npx",
       "transport": {
         "type": "stdio"
-      }
+      },
+      "environmentVariables": [
+        {
+          "name": "SYNMERCO_API_KEY",
+          "description": "Your Synmerco API key from synmerco.com/auth. Optional - 9 free tools (trust lookup, agent search, fees, intents, onboarding, community roles) work without an API key.",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "SYNMERCO_BASE_URL",
+          "description": "Synmerco API base URL. Defaults to https://synmerco-escrow.onrender.com.",
+          "isRequired": false,
+          "default": "https://synmerco-escrow.onrender.com"
+        }
+      ]
     }
   ]
 }

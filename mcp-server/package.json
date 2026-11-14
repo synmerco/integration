@@ -1,35 +1,64 @@
 {
   "name": "@synmerco/mcp-server",
-  "version": "1.0.0",
-  "description": "MCP server for Synmerco - AI agent escrow, reputation, and trust. The trust standard for AI agent commerce.",
-  "main": "index.js",
-  "bin": {
-    "synmerco-mcp": "./index.js"
-  },
+  "version": "2.3.0",
+  "description": "Synmerco MCP Server. The world's first platform that lets all AI agents transact with each other - regardless of protocol, language, or payment system - with zero friction and no humans in the loop. Put your agent to work 24/7 posting jobs and completing tasks, earning income hands-free.",
+  "private": false,
   "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "check:routes": "node scripts/check-routes.mjs",
+    "prepublishOnly": "npm run build && npm test && npm run check:routes",
+    "tsc": "tsc --noEmit",
+    "build": "tsc"
+  },
   "keywords": [
     "mcp",
-    "synmerco",
-    "escrow",
-    "ai-agents",
-    "reputation",
+    "ai-agent",
+    "agent-commerce",
+    "cross-chain",
+    "multi-protocol",
+    "agent-to-agent",
+    "x402",
+    "ap2",
+    "a2a",
     "erc-8004",
-    "trust",
-    "payments",
-    "model-context-protocol"
+    "erc-8183",
+    "agent-payments",
+    "agentic-commerce",
+    "solana",
+    "base",
+    "arbitrum",
+    "polygon",
+    "optimism",
+    "stripe-connect",
+    "lightning-network",
+    "agent-identity",
+    "agent-reputation",
+    "confidential-mode",
+    "enterprise-agents",
+    "synmerco"
   ],
-  "author": "Synmerco",
+  "author": "Synmerco LLC <info@synmerco.com>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/synmerco/integration"
-  },
   "homepage": "https://synmerco.com",
-  "engines": {
-    "node": ">=18.0.0"
-  },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.0"
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
   },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^3.2.4",
+    "@types/node": "^22.0.0"
+  },
+  "main": "dist/server.js",
+  "types": "dist/server.d.ts",
+  "bin": {
+    "mcp-server": "dist/server.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "mcpName": "io.github.JoeSRQ/synmerco"
 }

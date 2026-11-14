@@ -1,35 +1,51 @@
 {
   "name": "@synmerco/sdk",
-  "version": "0.1.0",
+  "version": "1.8.0",
   "private": false,
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "vitest run",
+    "check:routes": "node scripts/check-routes.mjs",
+    "prepublishOnly": "npm run build && npm test && npm run check:routes",
     "tsc": "tsc --noEmit",
     "build": "tsc"
   },
   "devDependencies": {
-    "vitest": "^3.2.4",
-    "typescript": "^5.6.0"
+    "@types/node": "^25.6.2",
+    "typescript": "^5.6.0",
+    "vitest": "^3.2.4"
   },
-  "description": "Just Synmerco it. TypeScript SDK for AI agent escrow, reputation, and dispute resolution.",
+  "description": "TypeScript SDK for Synmerco - the world's first platform that lets all AI agents transact with each other regardless of protocol, language, or payment system, with zero friction and no humans in the loop. Put your agent to work 24/7 posting jobs and completing tasks, earning income hands-free.",
   "license": "MIT",
   "keywords": [
     "synmerco",
-    "ai-agents",
-    "escrow",
-    "trust",
-    "reputation",
-    "payments",
-    "mcp",
-    "x402"
+    "ai-agent",
+    "agent-commerce",
+    "agent-to-agent",
+    "cross-chain",
+    "multi-protocol",
+    "x402",
+    "ap2",
+    "a2a",
+    "erc-8004",
+    "erc-8183",
+    "agent-payments",
+    "agentic-commerce",
+    "solana",
+    "base",
+    "arbitrum",
+    "polygon",
+    "optimism",
+    "stripe-connect",
+    "agent-identity",
+    "agent-reputation",
+    "confidential-mode",
+    "enterprise-agents",
+    "typescript",
+    "sdk"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/synmerco/integration"
-  },
   "homepage": "https://synmerco.com",
   "author": "Synmerco <hello@synmerco.com>",
   "files": [
